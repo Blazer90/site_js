@@ -1,0 +1,255 @@
+@font-face {
+    font-family: "corp";
+    src: url('fonts/coheadline_corp_rg.woff');
+   }
+
+@font-face {
+    font-family: "cotext";
+    src: url('fonts/cotext_corp_rg.woff');
+   }
+
+
+   
+
+.ar-app_container {
+	width: 100%;
+	max-width: 990px;
+	font-family: "cotext";
+	color: #2d2d2d;
+    position: relative;
+	margin-bottom: 20px;
+	margin: 0 auto;
+}
+
+.ar-clear-fix:after {
+	content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+.ar-app_header {
+	font-family: "corp";
+	font-size: 24px;
+	margin: 10px 0px 20px 0px;
+	padding: 0px;
+}
+
+.ar-app_header-img {
+	width: 100%;
+	margin-bottom: 45px;
+}
+
+.ar-app_text-1 {
+	font-family: "corp";
+	font-size: 20px;
+	margin-bottom: 35px;
+	font-weight: 200;
+	text-align: center;
+}
+
+.ar-app_icons {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.ar-app_icons_block {
+	width: 160px;
+	text-align: center;
+}
+
+.ar-app_icons_block_text {
+	text-align: left;
+	font-size: 14px;
+	font-weight: 200;
+	color: #0058af;
+	margin-top: 20px;
+}
+
+.ar-app_text-2 {
+	font-family: "corp";
+	font-size: 20px;
+	margin-bottom: 120px;
+	font-weight: 200;
+	text-align: center;
+	color: #353535;
+}
+
+
+.ar-app_slider-buttons {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 0px;
+	margin-bottom: 90px;
+}
+
+.ar-app_slider-buttons_ios {
+	display: inline-block;
+	padding: 10px 0px;
+	width: 190px;
+	background-color: #f5f5f5;
+	color: #353535;
+	border: 2px solid #353535;
+	font-family: "corp";
+	font-size: 20px;
+	cursor: pointer;
+	-webkit-transition: all 0.6s ease; /* Firefox */
+	-moz-transition: all 0.6s ease; /* WebKit */
+	-o-transition: all 0.6s ease; /* Opera */
+	transition: all 0.6s ease; /* Standard */
+}
+
+.ar-app_slider-buttons_ios:hover {
+	color: #f5f5f5;
+	background-color: #353535;
+	-webkit-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.75);
+}
+
+.ar-app_slider-buttons_ios:first-child {
+	margin-right: 30px;
+}
+
+.ar-app_slider-buttons_ios.active {
+	color: #f5f5f5;
+	background-color: #353535;
+}
+
+
+.ar-app_text-3 {
+	font-size: 38px;
+	margin-bottom: 100px;
+	text-align: center;
+	color: #353535;
+	text-transform: uppercase;
+}
+
+.ar-app_install {
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.ar-app_install_text {
+	float: left;
+	width: 69%;
+}
+
+.ar-app_install_qr {
+	float: right;
+}
+
+.ar-app_install_text_header {
+	font-family: "corp";
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.ar-app_install_text_list {
+	font-family: "corp";
+	margin: 0px 0px 45px 17px;
+	padding: 0px;
+}
+
+.ar-app_install_text_list li {
+	font-size: 18px;
+	padding-bottom: 15px;
+	font-weight: 200;
+}
+
+.ar-app_install_text_icons_wrap {
+	float: left;
+	padding-right: 25px;
+}
+
+
+
+
+
+
+
+.ar-app_slider {
+	position: relative;
+	margin-bottom: 100px;
+}
+
+.ar-app_slider_android-img {
+	display: none;
+	position: absolute;
+	z-index: 999;
+	top: -50px;
+	left: 336px;
+	width: 290px;
+	height: 579px;
+}
+
+.ar-app_slider_iphone-img {
+	position: absolute;
+	z-index: 999;
+	top: -67px;
+	left: 334px;
+	width: 294px;
+	height: 600px;
+	
+}
+
+
+#jssor_2 {
+	display: none;
+}
+
+
+
+
+.jssorb03 {
+    position: absolute;
+}
+        
+.jssorb03 div { background-position: -5px -4px; }
+.jssorb03 div:hover, .jssorb03 .av:hover { background-position: -35px -4px; }
+.jssorb03 .av { background-position: -65px -4px; }
+.jssorb03 .dn, .jssorb03 .dn:hover { background-position: -95px -4px; }
+
+        /* jssor slider arrow navigator skin 03 css */
+        /*
+        .jssora03l                  (normal)
+        .jssora03r                  (normal)
+        .jssora03l:hover            (normal mouseover)
+        .jssora03r:hover            (normal mouseover)
+        .jssora03l.jssora03ldn      (mousedown)
+        .jssora03r.jssora03rdn      (mousedown)
+        */
+.jssora03l, .jssora03r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 30px;
+    height: 53px;
+    cursor: pointer;
+    background: url('http://www.sportmaster.ru/upload/brand-page/oneill/a03.png') no-repeat;
+    overflow: hidden;
+	z-index: 999;
+}
+.jssora03l { background: url('http://www.sportmaster.ru/upload/pages/2016_04_11_app/left.png') no-repeat; }
+.jssora03r { background: url('http://www.sportmaster.ru/upload/pages/2016_04_11_app/right.png') no-repeat; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
